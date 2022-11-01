@@ -1,0 +1,142 @@
+* {
+  font-family: "Bebas Neue";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.main {
+  display: flex;
+}
+.main__left,
+.main__right {
+  width: 50%;
+}
+.main__left {
+  height: 100vh;
+  background-image: url("../img/a-picture-of-a-man-standing-by-a-river.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main__left-content {
+  width: 285px;
+  color: #fff;
+}
+.main__left-content h1 {
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+  font-weight: 400;
+}
+.main__left-button {
+  padding: 12px 24px;
+  background: #1e90ff;
+  gap: 12px;
+}
+.main__left-button img {
+  margin-right: 10px;
+  transform: translateY(4px);
+}
+.main__right {
+  width: 100%;
+  max-width: 500px;
+}
+.main__right__content {
+  display: flex;
+  flex-direction: column;
+  padding: 54px 50px 0 50px;
+}
+.main__right-heading {
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 24px;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 2px;
+  color: #222222;
+}
+.main__right-line {
+  width: 500px;
+  border: 1px solid #999999;
+  margin-bottom: 24px;
+}
+.main__right-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main__right-item {
+  display: flex;
+  align-items: center;
+}
+.mian__right-img {
+  width: 160px;
+  height: 90px;
+  padding-right: 16px;
+  border-radius: 4px;
+}
+.main__right-inform {
+  display: flex;
+  flex-direction: column;
+}
+.main__right-item-heading {
+  padding-bottom: 4px;
+}
+.main__right-item-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #222222;
+}
+.main__right-item-link:hover {
+  color: #1e90ff;
+}
+.main__right-item-link:active {
+  opacity: 0.6;
+}
+.main__right-asiet {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.main__right-time,
+.main__right-views {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #888888;
+}
+.main__right-time-icon,
+.main__right-views-icon {
+  padding-right: 4px;
+}
+.main__right-link {
+  width: 500px;
+  padding: 12px 0;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 24px;
+  border-radius: 4px;
+  background-color: rgba(30, 144, 255, 0.8);
+  color: #fff;
+}
+.main__right-link:hover {
+  opacity: 0.8;
+}
+.main__right-link:active {
+  opacity: 0.6;
+}
